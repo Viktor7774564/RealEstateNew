@@ -1,0 +1,12 @@
+{
+  "name": "renew",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Viktor",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
