@@ -9,7 +9,7 @@ app.get('/main', (req, res) => {
     res.send('Main Page')
 })
 
-app.get('/Blog', (req, res) => {
+app.get('/blog', (req, res) => {
     res.send('Blog Page')
 })
 
