@@ -5,6 +5,26 @@ const employeeR = require('./routes/employee')
 const adminR = require('./routes/admin')
 const directorR = require('./routes/director')
 
+app.get('/main', (req, res) => {
+    res.send('Main Page')
+})
+
+app.get('/Blog', (req, res) => {
+    res.send('Blog Page')
+})
+
+app.get('/team', (req, res) => {
+    res.send('Real Estate team page')
+})
+
+app.get('/about', (req, res) => {
+    res.send('About Page')
+})
+
+app.get('/contacts', (req, res) => {
+    res.send('Contacts Page')
+})
+
 app.use('/realEstate', realEstateR)
 app.use('/employee', employeeR)
 app.use('/admin', adminR)
